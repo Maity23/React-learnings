@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 // import Home from './Home';
 // import About from './About';
-import Counter from './Counter';    
+// import Counter from './Counter';
+import Car from './Components/Car';
 
 class App extends Component {
   //   constructor(props) {
@@ -43,7 +44,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Counter />
+        {/* <Counter />  */}
+        <Car />
       </div>
     )
   }
