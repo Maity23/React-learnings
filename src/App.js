@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 // import Home from './Home';
 // import About from './About';
 // import Counter from './Counter';
-import Car from './Components/Car';
-
+//import Car from './Components/Car';
+//import Amount from './Components/Amount';
+//import Football from './Events/Football';
+import Goal from './React Conditionals/Goal';
 class App extends Component {
   //   constructor(props) {
   //     super(props);
@@ -45,7 +47,8 @@ class App extends Component {
     return (
       <div>
         {/* <Counter />  */}
-        <Car />
+        {/*<Car /> */}
+        <Goal isGoal={true}/>
       </div>
     )
   }
